@@ -1,0 +1,90 @@
+.hero-section {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../assets/homepage/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    /* z-index: -10; */
+}
+
+.hero-title {
+    font-size: 12vw;
+}
+
+.hero-btn {
+    font-size: 2vw;
+    font-weight: 100;
+    border-width: 0.2rem;
+    padding: 1rem 2rem;
+}
+
+@media(max-width: 576px) {
+    .hero-title {
+        font-size: 5rem;
+    }
+
+    .hero-btn {
+        font-size: 1rem;
+    }
+}
+
+@media(min-width: 1200px) {
+    .hero-title {
+        font-size: 9rem;
+    }
+
+    .hero-btn {
+        font-size: 2rem;
+    }
+}
+
+
+section > h2 {
+    font-weight: bold;
+}
+
+.events-near-section .card {
+    max-width: 400px;
+    border: none;
+}
+
+.category-title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.category-section > div > h2 {
+    font-weight: bold;
+}
+
+.category-section :nth-child(2) {
+    background-image: url('../assets/homepage/sports.jpg');
+    background-position: center;
+    border-top: 10px solid var(--primary);
+    height: 150px;
+}
+
+.category-section :nth-child(3) {
+    background-image: url('../assets/homepage/theater.jpg');
+    background-position: center;
+    border-top: 10px solid var(--primary);
+    height: 150px;
+}
+
+.category-section :nth-child(4) {
+    background-image: url('../assets/homepage/music.jpg');
+    background-position: center;
+    border-top: 10px solid var(--primary);
+    height: 150px;
+}
+
+.category-section :nth-child(5) {
+    background-image: url('../assets/homepage/others.jpg');
+    background-position: center;
+    border-top: 10px solid var(--primary);
+    height: 150px;
+}
+
+.category-title {
+    margin-bottom: 16px;
+}
