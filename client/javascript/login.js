@@ -1,21 +1,21 @@
-var username = document.forms['form']['username'];
+var email = document.forms['form']['email'];
 var password = document.forms['form']['password'];
 
 var account_error = document.getElementById('account_error');
 
 function validated() {
-    if(username.value.length < 1 && password.value.length < 1) {
-        username.style.border = "1px solid red";
+    if(email.value.length < 1 && password.value.length < 1) {
+        email.style.border = "1px solid red";
         password.style.border = "1px solid red";
         account_error.style.display = "block";
-        username.focus();
+        email.focus();
         password.focus();
         return false;
     }
-    if(username.value != "Tick-etOut") {
-        username.style.border = "1px solid red";
+    if(email.value != "Tick-etOut") {
+        email.style.border = "1px solid red";
         account_error.style.display = "block";
-        username.focus();
+        email.focus();
         return false;
     }
     if(password.value != "admin") {

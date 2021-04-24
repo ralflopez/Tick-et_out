@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../assets/login/hero.JPG);
+    background-size:cover;
+    background-position: center;
+    font-family: sans-serif;
+    
+}
+
+h1 {
+    color: #8139B0;
+    font-size: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+h6 {
+    color:#8139B0;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.sign-up-form {
+    width: 500px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #FFFFFF;
+    padding: 20px;
+    margin: 1% auto 0;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px;
+    border-style: solid;
+    border-color: #8139B0;
+}
+.sign-up-form .sign-up-btn {
+    color: #8139B0;
+}
+.sign-up-form img {
+    width: 250px;
+    margin-left: -20px;
+}
+.sign-up-form p{
+    color: #8139B0;
+}
+
+input[name="firstName"],
+input[name="surname"] {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 2px;
+    width: 44%;
+    border: 1px solid #999;
+    border-color: #8139B0;
+    outline: none;
+}
+
+input[name="email"],
+input[name="password"] {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    width: 90%;
+    border: 1px solid #999;
+    border-color: #8139B0;
+    outline: none;
+}
+
+.account-error {
+    font-size: 12px;
+}
+
+button {
+    color: black;
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.register_form #account_error {
+    color: darkred;
+    padding: 1%;
+    display: none;
+}
+
+hr {
+    color: #8139B0;
+}
+
+.control-group {
+    padding: 10px;
+}
+.control-label {
+    color: #8139B0;
+}
+
+select {
+    width: 30%;
+    padding: 10px;
+    border-radius: 5%;
+    border-color: #8139B0;
+    color: #8139B0;
+}
+
+.terms {
+    font-size: 10px;
+}
