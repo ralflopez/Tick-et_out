@@ -12,7 +12,7 @@ function validated() {
         password.focus();
         return false;
     }
-    if(email.value != "Tick-etOut") {
+    if(email.value != "ticketout@ticket.me") {
         email.style.border = "1px solid red";
         account_error.style.display = "block";
         email.focus();
