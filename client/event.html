@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="css/event/ticket.css" rel="stylesheet" />
+    <link href="css/event/event.css" rel="stylesheet" />
+    <title>Tick-et Out</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="assets/logo.png" style="height: 40px; width: 40px;" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item">
+            <a class="nav-link" href="/client/index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/client/events.html">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/client/login.html">Profile</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <div class="container-fluid pt-navbar pb-5">
+      <div class="row mb-5 bg-primary">
+        <div class="col-12 col-md-6">
+          <div class="event-image mb-5 p-3">
+            <img src="assets/event/test-event.png" alt="event image" />
+          </div>
+        </div>
+        <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+          <!-- ticket -->
+          <div class="ticket p-relative mb-5">
+            <div class="side-container">
+              <div class="left-side">
+                <div class="barcode">
+                  <img alt="barcode" src="assets/event/barcode.svg" />
+                </div>
+                <div class="details">
+                    <h1 class="title truncate">USC Days Opening</h1>
+                    <p class="host truncate text-dark">by University of San Carlos</p>
+                    <p class="address truncate text-dark">USC Main, Cebu City</p>
+                    <p class="time truncate text-dark">Start: 7:00AM</p>
+                </div>
+              </div>
+            </div>
+            <div class="side-container">
+              <div class="right-side">
+                <p>Admit 1</p>
+              </div>
+            </div>
+          </div>
+          <!-- /ticket-->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2 border border-top-0 border-bottom-0 border-left-0 border-primary text-md-center order-2 order-md-0">
+          <h4 class="text-primary font-weight-bold mb-3">Details</h4>
+          <p>Start: 7:00AM</p>
+          <p>End: 7:00PM</p>
+          <p class="mb-3">Price: P200</p>
+          <button class="btn btn-primary">Book now</button>
+        </div>
+        <div class="col-md-10 pl-md-5">
+          
+          <div class="mb-5">
+            <h4 class="text-primary font-weight-bold mb-3">Description</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, perferendis dolorum. Nostrum fuga nam quae deleniti, quibusdam facilis esse quisquam amet. Odit esse itaque suscipit distinctio non quia quisquam eligendi sit, ipsum reprehenderit facilis magni illo atque voluptatibus doloremque. Aliquam ullam ipsa odio eaque incidunt. Quia iusto veniam dolore excepturi!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

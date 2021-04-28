@@ -2,93 +2,76 @@
     padding-top: 66px;
 }
 
-.hero-section {
-    height: 100vh;
+h1 {
+    font-size: 5vw;
+}
+
+.move-upper {
+    position: relative;
+    top: -50px;
+}
+
+.card {
+    width: calc(50% - 20px);
+}
+
+.btn-main {
+    font-size: 1rem;
+    padding: 10px 22px;
+}
+
+.bg-transparent {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.container.hero {
+    height: 100vh !important;
+}
+
+.extra-circle {
+    height: 620px;
+    width: 620px;
+    max-height: 50vw;
+    max-width: 50%;
+    border-radius: 50%;
+    z-index: -10;
+    background-color: #8139B0;
+    position: absolute;
+    top: 27%;
+    left: -7%;
+}
+
+.category {
+    border-radius: 0.8rem;
+    display: inline-block;
     width: 100%;
-    background-image: url('../assets/homepage/hero.jpg');
-    background-size: cover;
-    background-position: center;
-    /* z-index: -10; */
+    height: 100vw;
+    max-height: 300px;
+    max-width: 300px;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 35px;
+    cursor: pointer;
 }
 
-.hero-title {
-    font-size: 10vw;
+.category:hover {
+    opacity: 0.7;
 }
 
-.hero-btn {
-    font-size: 2vw;
-    font-weight: 100;
-    border-width: 0.2rem;
-    padding: 1rem 2rem;
+.category img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -2;
+    border-radius: 0.8rem;
 }
 
-@media(max-width: 576px) {
-    .hero-title {
-        font-size: 4rem;
-    }
-
-    .hero-btn {
-        font-size: 1rem;
-    }
-}
-
-@media(min-width: 1200px) {
-    .hero-title {
-        font-size: 5rem;
-    }
-
-    .hero-btn {
-        font-size: 1rem;
-    }
-}
-
-
-section > h2 {
-    font-weight: bold;
-}
-
-.events-near-section .card {
-    max-width: 400px;
-    border: none;
-}
-
-.category-title {
-    font-weight: bold;
-    font-size: 2rem;
-}
-
-.category-section > div > h2 {
-    font-weight: bold;
-}
-
-.category-section :nth-child(2) {
-    background-image: url('../assets/homepage/sports.jpg');
-    background-position: center;
-    border-top: 10px solid var(--primary);
-    height: 150px;
-}
-
-.category-section :nth-child(3) {
-    background-image: url('../assets/homepage/theater.jpg');
-    background-position: center;
-    border-top: 10px solid var(--primary);
-    height: 150px;
-}
-
-.category-section :nth-child(4) {
-    background-image: url('../assets/homepage/music.jpg');
-    background-position: center;
-    border-top: 10px solid var(--primary);
-    height: 150px;
-}
-
-.category-section :nth-child(5) {
-    background-image: url('../assets/homepage/others.jpg');
-    background-position: center;
-    border-top: 10px solid var(--primary);
-    height: 150px;
-}
-
-.category-title {
-    margin-bottom: 16px;
+.category h5 {
+    position: absolute;
+    bottom: -0.8rem;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
 }
