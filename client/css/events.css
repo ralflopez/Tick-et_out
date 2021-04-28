@@ -1,0 +1,40 @@
+h1{
+	font-weight: bold;
+
+}
+
+h2{
+	font-size: 15px;
+	color: white;
+	padding: none;
+}
+
+.container{
+		margin-top: 70px;
+	
+}
+
+.row{
+	margin-top: 30px;
+	left-margin: 15%;	
+}
+
+.btn-default{
+	background: #8139B0;
+	width: 100px;
+	color: white;
+	
+}
+
+.card{
+	border-radius: 15px;
+	box-shadow: 0 0 8px 2px rgba(0,0,0,0.1);
+	min-height: 350px;
+	max-height: 350px;
+}
+
+.card-img-top{
+	min-height: 150px;
+	max-height: 150px;
+	
+}
