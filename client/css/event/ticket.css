@@ -1,0 +1,103 @@
+.ticket {
+    height: 200px;
+    width: 100%;
+    max-width: 500px;
+    color: #8139B0;
+}
+
+.side-container {
+    position: relative;
+    height: 100%;
+    box-sizing: content-box;
+}
+
+.side-container:nth-of-type(1) {
+    float: left;
+    width: 85%;
+    clip-path: inset(-50px 0px -50px -50px);
+}
+
+.side-container:nth-of-type(2) {
+    float: right;
+    width: 15%;
+    clip-path: inset(-50px -50px -50px 0px);
+}
+
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ticket .left-side {
+    /* float: left;
+    width: 85%; */
+    height: 100%;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 1px 19px 40px rgba(0, 0, 0, 0.18);
+    background-color: white;
+}
+
+.ticket .details > .title {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.ticket .details > .host {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.ticket .details > .address {
+    margin-bottom: 15px;
+}
+
+.ticket .right-side {
+    height: 100%;
+    border-radius: 15px;
+    position: relative;
+    left: -3px;
+    box-shadow: 10px 19px 40px rgba(0, 0, 0, 0.18);
+    background-color: white;
+}
+
+.ticket .right-side > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    width: 100%;
+    text-align: center;
+}
+
+.ticket .barcode {
+    width: 60px;
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+}
+
+.ticket .barcode > img {
+    width: 100%;
+    height: 100%;
+}
+
+.ticket .details {
+    width: calc(100% - 80px);
+    height: 100%;
+    display: inline-block;
+}
+
+@media (max-width: 576px) {
+    .ticket .side-container:nth-of-type(1) {
+        width: 100%;
+        clip-path: inset(-50px -50px -50px -50px);
+    }
+
+    .side-container:nth-of-type(2) {
+        display: none;
+    }
+}
