@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../assets/login/hero.JPG);
+    font-family: sans-serif;
+    
+}
+
+.content {
+    width: 80%;
+    height: 90%;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #FFFFFF;
+    /* padding: 5px; */
+    margin: 3% auto 3%;
+    text-align: center;
+}
+
+.header-profile {
+    background-color: #8139B0;
+    padding-top: 50px;
+}
+
+.my-tickets {
+    background-color: white;
+    padding-bottom: 500px;
+}
+
+.profile-information {
+    color: white;
+    padding-bottom: 5%;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border: 100%;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius:250px;
+    background-color: white;
+    margin: auto;
+    
+}
